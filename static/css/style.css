@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #149ddd; /*links color*/
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #1c1b1b; /*profile background color*/
   overflow-y: auto;
 }
 
@@ -86,7 +86,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  /* border: 8px solid #5e5e63; /*profile photo border */
 }
 
 #header .profile h1 {
@@ -101,7 +101,7 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: #fff;
+  color: #fff; /**/
   text-decoration: none;
 }
 
@@ -234,7 +234,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgb(5, 101, 237);
+  background: rgb(97, 110, 125); /*Main background color (HEY) */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -254,21 +254,21 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #fff; /*Hey I'm anudeep reddy */
 }
 
 #hero p {
-  color: #fff;
+  color: #fff; /* I'm */
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color: #ffffff; /* a passionate data scientist */
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #0094d9; /*underline to above text */
 }
 
 @media (min-width: 1024px) {
@@ -299,7 +299,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #b8dbe0; /* Chat with me background */
 }
 
 .section-title {
@@ -312,7 +312,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #173b6c; /*text - work exp, career, contact, chat with me */
 }
 
 .section-title h2::after {
