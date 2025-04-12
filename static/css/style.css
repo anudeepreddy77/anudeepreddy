@@ -78,9 +78,29 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #1c1b1b; /*profile background color*/
+  background: #000000; /*profile background color*/
   overflow-y: auto;
 }
+
+.scroll-hint {
+  color: #f4a3a3cc; /* semi-transparent white */
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 90px;
+  animation: fadeInUp 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0.7;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 
 #header .profile img {
   margin: 15px auto;
